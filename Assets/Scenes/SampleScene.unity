@@ -544,6 +544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   scoreText: {fileID: 359225607}
+  gameOverScreen: {fileID: 2069290598}
 --- !u!1 &785673726
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +712,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 785673729}
   flapStrength: 10
+  logic: {fileID: 0}
+  birdIsAlive: 1
 --- !u!1 &1289195271
 GameObject:
   m_ObjectHideFlags: 0
